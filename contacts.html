@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Oktobra atestacija - Par Mani</title>
+	<link rel="stylesheet" href="css/Style.css">
+	<link href="CSS/lightbox.css" rel="stylesheet">
+	<link rel="icon" href="IMG/favicon.ico">
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<a href="index.html"><img src="IMG/LOGO.png" style="width: 200px; height: 100px" alt=""></a>
+		</div>
+		<div id="center" class="column">
+			<div id="nav">
+				<ul class="nav">
+					<li><a href="index.html">Sākums</a></li>
+					<li><a href="galery.html">Galerija</a></li>
+					<li><a href="contacts.html">Kontakti</a></li>
+					<li><a href="poll.html">Anketa</a></li>
+					<li><a href="about.html">Par Mani</a></li>
+					<li><a href="../index.html">Jauna Versija</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<p>Vārds: Matiss</p>
+				<p>Uzvārds: Vanags</p>
+				<p>E-Pasts: MVanags93@gmail.com</p>
+				<p>Adrese: Zemgales iela 13a</p> <br/>
+				<div id="map"></div>
+			    <script>
+			      function initMap() {
+			        var uluru = {lat: 56.607, lng: 24.185};
+			        var map = new google.maps.Map(document.getElementById('map'), {
+			          zoom: 10,
+			          center: uluru
+			        });
+			        var marker = new google.maps.Marker({
+			          position: uluru,
+			          map: map
+			        });
+			      }
+			    </script>
+			    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFNbK0zCCi58RYxkpN8AgmvpZFBGvfGL8&callback=initMap"></script>
+			</div>								
+		</div>
+	</div>
+	<script src="SCP/lightbox-plus-jquery.js"></script>
+</body>
+</html>
