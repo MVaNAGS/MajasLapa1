@@ -1,49 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Oktobra atestacija - Kontakti</title>
-	<link rel="stylesheet" href="css/Style.css">
-	<link href="CSS/lightbox.css" rel="stylesheet">
-	<link rel="icon" href="IMG/favicon.ico">
+  <title>Novembra attestācija - Sākums</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
 </head>
-
 <body>
-	<div id="container">
-		<div id="header">
-			<a href="index.html"><img src="IMG/LOGO.png" style="width: 200px; height: 100px" alt=""></a>
-		</div>
-		<div id="center" class="column">
-			<div id="nav">
-				<ul class="nav">
-					<li><a href="index.html">Sākums</a></li>
-					<li><a href="galery.html">Galerija</a></li>
-					<li><a href="contacts.html">Kontakti</a></li>
-					<li><a href="poll.html">Anketa</a></li>
-					<li><a href="about.html">Par Mani</a></li>
-					<li><a href="../index.html">Jauna Versija</a></li>
-				</ul>
-			</div>
-			<div id="content">
-				<div class="cv">
-					<h1>Matiss Vanags</h1>
-				</div>
-				<div class="cv">
-					<h6>Izglītība</h6>
-					<p>12. klases</p>
-				</div>
-				<div class="cv">
-					<h6>Darba pieredze</h6>
-					<p>Melnais strādnieks</p>
-				</div>
-				<div class="cv">
-					<h6>Intreses</h6>
-					<p>Programmēšana</p>
-				</div>
 
-			</div>								
-		</div>
-	</div>
-	<script src="SCP/lightbox-plus-jquery.js"></script>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Sākums</a></li>
+        <li><a href="galery.html">Galerija</a></li>
+        <li><a href="contacts.html">Kontakti</a></li>
+        <li><a href="poll.html">Anketa</a></li>
+        <li><a href="old/index.html">Vecā Versija</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html">Par Mani</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container text-center">    
+  <div class="row content">
+    <div class="col-sm-12 text-left"> 
+      <div class="mainDetails">
+        <div id="headshot">
+          <img src="img/headshot.jpg" alt="Matīss Vanags" />
+        </div>
+        
+        <div id="name">
+          <h1>Matīss Vanags</h1>
+          <h2>Students</h2>
+        </div>
+        
+        <div class="clear"></div>
+      </div>
+      
+      <div id="mainArea">
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Izglītība</h1>
+          </div>
+          
+          <div class="sectionContent">
+            <article>
+              <h2>Iecavas vidusskola</h2>
+              <p class="subDetails">Vidējā izglītība</p>
+              <p> Absolvēšanas gads</p>
+            </article>
+            
+            <article>
+              <h2>Rīgas Valsts Tehnikums</h2>
+              <p class="subDetails">Programmēšanas tehniķis</p>
+              <p>Absolvēšanas gads</p>
+            </article>
+          </div>
+          <div class="clear"></div>
+        </section>
+
+        <section>
+          <div class="sectionTitle">
+            <h1>Darba pieredze</h1>
+          </div>
+          
+          <div class="sectionContent">
+            <article>
+              <h2>A/S Balticovo</h2>
+              <p class="subDetails">Datumi</p>
+              <p>Par ko strādāju</p>
+            </article>
+        
+          </div>
+          <div class="clear"></div>
+        </section>
+        
+        
+        <section>
+          <div class="sectionTitle">
+            <h1>Prasmes</h1>
+          </div>
+          
+          <div class="sectionContent">
+            <ul class="keySkills">
+              <li>C++</li>
+              <li>C#</li>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
