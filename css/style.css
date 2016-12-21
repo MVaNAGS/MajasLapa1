@@ -228,3 +228,31 @@ section:last-child {
   height: 400px;
   width: 100%;
 }
+
+.halfl{  
+  width:50%;
+  text-align:center;
+  float:left;
+}
+.halfr{
+  width:50%;
+  text-align:center;
+  float:right;
+}
+hr{
+  color:blue;
+}
+table, tr, td{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #6A6868;
+}
+.bold{
+  font-weight: bold;
+}
+.blue{
+  color:#24EDFF;
+}
+.colored{
+  color:#1B5CBD;
+}
